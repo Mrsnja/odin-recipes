@@ -4,12 +4,12 @@
 
 .body {
     background-color: white; 
-    text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 5%;
     border-width: 2px;
     border-color: cadetblue;
     border-style: solid;
+    margin: 5%;
 }
 
 p {
@@ -28,7 +28,7 @@ p {
 }
 
 a {
-    color: crimson;
+    color:cadetblue;
     background-color: white;
     font-weight: bold;
     font-size: medium;
@@ -36,13 +36,20 @@ a {
 
 a:hover {
     color: rgb(255, 255, 255);
-    background-color: crimson;
+    background-color:cadetblue;
     font-weight: bold;
 }
 
 .images {
     text-align: center;
     margin-bottom: 1rem;
+    background-color: white;
+}
+
+img {
+    border-width: 2px;
+    border-style:inset;
+    border-color: cadetblue;
 }
 
 li, ol, ul {
@@ -50,9 +57,21 @@ li, ol, ul {
     font-weight: bold;
 }
 
+ol{
+    list-style-type: square;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h1, h2 {
+    text-align: center;
+    color: white;
+    background-color: darkgray;
+}
+
 h2 {
-    color:rgb(255, 255, 255);
-    background-color: rgb(160, 160, 160);
     border-width: 2px;
     border-style: solid;
     border-color: darkcyan;
@@ -62,10 +81,11 @@ h2 {
     color: black;
     font-size: x-small;
     background-color: #cfeffd;
-    margin-bottom: 1rem; 
+    margin-bottom: 1rem;
+    background-color: white;
 }
 
 .caption:hover {
-    color: black;
-    background-color: #cfeffd;
+    color:cadetblue;
+    background-color: white;
 }
