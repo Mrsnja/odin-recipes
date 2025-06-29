@@ -1,0 +1,39 @@
+* {
+    background-color: #cfeffd;
+}
+
+.body {
+    background-color: white; 
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+    background-color: white; 
+    text-align: left;
+}
+
+.highlighted {
+    font-weight: bolder; 
+    font-size: xx-large;
+    color: crimson;
+}
+
+a {
+    color: crimson;
+    background-color: white;
+    font-weight: bold;
+    font-size: medium;
+}
+
+a:hover {
+    color: black;
+    background-color: crimson;
+    font-weight: bold;
+}
+
+img {
+    border-style: groove;
+    border-radius: 20%;
+}
+
