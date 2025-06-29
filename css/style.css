@@ -27,7 +27,7 @@ a {
 }
 
 a:hover {
-    color: black;
+    color: rgb(255, 255, 255);
     background-color: crimson;
     font-weight: bold;
 }
@@ -35,5 +35,9 @@ a:hover {
 img {
     border-style: groove;
     border-radius: 20%;
+    image-orientation: 50grad;                    
 }
 
+.images {
+    text-align: center;
+}
