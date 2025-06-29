@@ -6,6 +6,7 @@
     background-color: white; 
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 5%;
 }
 
 p {
@@ -16,7 +17,11 @@ p {
 .highlighted {
     font-weight: bolder; 
     font-size: xx-large;
-    color: crimson;
+    color: black;
+    background-color: darkgrey;
+    border-width: 2px;
+    border-style: solid;
+    border-color: darkcyan
 }
 
 a {
@@ -40,4 +45,28 @@ img {
 
 .images {
     text-align: center;
+}
+
+li, ol, ul {
+    background-color: white;
+    font-weight: bold;
+}
+
+h2 {
+    color:rgb(255, 255, 255);
+    background-color: rgb(160, 160, 160);
+    border-width: 2px;
+    border-style: solid;
+    border-color: darkcyan;
+}
+
+.caption {text-align: center;
+    color: black;
+    font-size: x-small;
+    background-color: #cfeffd;
+}
+
+.caption:hover {
+    color: black;
+    background-color: #cfeffd;
 }
